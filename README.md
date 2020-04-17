@@ -5,7 +5,8 @@ A static web page for calculation built with only HTML, CSS & JavaScript.
 
 Try the live demo [right here](https://ayseakyol.github.io/budget-app/), it looks something like this:
 
-[![budget screen shot]](https://raw.githubusercontent.com/ayseakyol/budget-app/b68885fcd33b80154eb1f9fa61dd9ec1bdcefdcf/budget.png)
+
+[![budget screen shot](./budget.png)](https://github.com/ayseakyol/budget-app)
 
 ---
 
