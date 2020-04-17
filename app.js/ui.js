@@ -91,4 +91,44 @@ class UI {
     this.expenseAmount.textContent = total;
     return total;
   }
+
+  // edit expense
+  editExpense(element) {
+    let id = parseInt(element.dataset.id);
+
+    let parent = element.parentElement.parentElement.parentElement;
+    // remove from dom
+    this.expenseList.removeChild(parent);
+    //remove from list;
+    let expense = this.itemList.filter(function (item) {
+      return item.id === id;
+    });
+
+    // show value
+    this.expenseInput.value = expense[0].title;
+    this.amountInput.value = expense[0].amount;
+    // delete item
+    let tempList = this.itemList.filter(function (expense) {
+      return expense.id !== id;
+    });
+
+    this.itemList = tempList;
+    this.showBalance();
+  }
+  //delete expense
+  deleteExpense(element) {
+    let id = parseInt(element.dataset.id);
+    console.log(id);
+    let parent = element.parentElement.parentElement.parentElement;
+    // remove from dom
+    this.expenseList.removeChild(parent);
+
+    // delete item
+    let tempList = this.itemList.filter(function (expense) {
+      return expense.id !== id;
+    });
+
+    this.itemList = tempList;
+    this.showBalance();
+  }
 }
