@@ -16,21 +16,15 @@ Studying this project I learned about:
 
 * es6 classes
 * Using the constructor
-* Using static methods in classes
+* Using `setTimeOut`
 
 
 I struggled with:
 
-* Seperating js files 
+* Using differnt referenced `this` 
 
-
-These resources were very helpful:
-
-https://www.youtube.com/watch?v=2ZphE5HcQPQ
-
-https://www.youtube.com/watch?v=RBLIm5LMrmc
 
 ---
 
-> * Code refactored from [Traversy Media](https://www.youtube.com/watch?v=JaMCxVWtW58t)
+> * Code refactored from [FreeCodeCamp](https://www.youtube.com/watch?v=m_HJ3juuFvo)
 
