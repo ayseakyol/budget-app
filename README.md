@@ -19,10 +19,6 @@ Studying this project I learned about:
 * Using `setTimeOut`
 
 
-I struggled with:
-
-* Using differnt referenced `this` 
-
 
 ---
 
